@@ -4,6 +4,8 @@
     <title>Live Messages</title>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
 
     <script>
 
@@ -23,7 +25,7 @@
 
 
         var chart;
-        var dataSource = 'https://real-time-web-dashboard-bsullins.c9.io/modules/5 - Working with Data/getTrendData.php?format=json';
+        var dataSource = 'https://jsonplaceholder.typicode.com/todos/1';
 
         function requestData() {
             $.ajax({
@@ -90,8 +92,7 @@
 
 
     </script>
-</head>
-<body>
+
 <div id="container"></div>
 </body>
 </html>
